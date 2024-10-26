@@ -9,5 +9,14 @@ package bus_seat_reg_system;
  * @author Muhammad Noman
  */
 public class BSRS {
-    int bus_no;
+    static int [] busNo = {1,2,3,4,5};
+    static int totalSeats = 30;
+    static int resSeats = 13;
+    int[] pastResSeats;
+    
+    void SetResSeats(int[] RS){
+        for(int i=0;i<RS.length;i++){
+            this.pastResSeats[i]=RS[i];
+        }
+    }
 }

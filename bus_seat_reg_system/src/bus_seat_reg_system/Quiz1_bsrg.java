@@ -15,6 +15,7 @@ public class Quiz1_bsrg {
      */
     public static void main(String[] args) {
     // TODO code application logic here
+        int resSeatsPerBusNo[]={12,14,21,23,30};
         
     }
     
